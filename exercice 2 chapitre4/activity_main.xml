@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="51dp"
+        android:text="Entrez le poids"
+        android:textColor="#3F51B5"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="254dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:text="Kg to Pound"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:text="Poud to Kg"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="156dp"
+        android:layout_height="58dp"
+        android:background="#3F51B5"
+        android:text="Conversion"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
